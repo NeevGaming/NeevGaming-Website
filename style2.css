@@ -1,0 +1,122 @@
+@keyframes fadeAndScale {
+    0% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+    70% {
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+ }
+ .animation1 {
+    animation-name: fadeAndScale;
+    animation-duration: 0.3s;
+  }
+  .animation2 {
+    animation-name: fadeAndScale;
+    animation-duration: 0.1s;
+  }
+  @keyframes New 
+  {
+    0% 
+    {
+      opacity: 0;
+    }
+    10%
+    {
+      opacity: 0.1;
+    }
+    20%
+    {
+      opacity: 0.2;
+    }
+    30%
+    {
+      opacity: 0.3;
+    }
+    40%
+    {
+      opacity: 0.4;
+    }
+    50%
+    {
+      opacity: 0.5;
+    }
+    60%
+    {
+      opacity: 0.6;
+    }
+    70%
+    {
+      opacity: 0.7;
+    }
+    80%
+    {
+      opacity: 0.8;
+    }
+    90%
+    {
+      opacity: 0.9;
+    }
+    100%
+    {
+      opacity: 1;
+    }
+  }
+  .test {
+    animation-name: New;
+    animation-duration: 0.3s;
+  }
+  .menu_img 
+  {
+    padding-left: 1300px;
+  }
+
+  .container {
+    display: inline-block;
+    cursor: pointer;
+   
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .button
+  {
+    background-color: white;
+
+  }
+  .close
+  {
+    color: white;
+    background-color: #262626;
+  }
+  
+  /* Rotate first bar */
+  /*.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  */
+  
+  /* Fade out the second bar */
+  /*.change .bar2 {
+    opacity: 0;
+  }
+  */
+  
+  /* Rotate last bar */
+  /*.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+   */
+
