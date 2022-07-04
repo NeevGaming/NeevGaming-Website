@@ -1,19 +1,34 @@
 <html>
-<title>Support-Neev Gaming</title>
-<body bgcolor="black" >
-  <a href="https://www.youtube.com/channel/UCeqjHQM9ybkZzG_JtPv9NrQ/videos"><img src="YouTube-Emblem.png" height="30" width="60" ></a> 
-  <a href="Neev Gaming Site.html"><button type="menu" style="margin-left: 430px; background-color: black; color: red; font-size: 20px; border-bottom-color: red; border-top-color: red ;">Home</button></a>
-  <a href="https://www.youtube.com/channel/UCeqjHQM9ybkZzG_JtPv9NrQ/videos"><button type="menu" style="background-color: black; color: red; font-size: 20px; border-bottom-color: red; border-top-color: red ;">Videos</button></a>
-  <a href="About.html"><button type="menu" style="background-color: black; color: red; font-size: 20px; border-bottom-color: red; border-top-color: red ;">About</button></a>
-  <a href="Support.html"><button type="menu" style="background-color: black; color: red; font-size: 20px; border-bottom-color: red; border-top-color: red ;">Support</button></a>
-    <p style="font-size: 70; padding-left: 340 ; color: red;  ">Support ---Neev Gaming</p>
-    <form style="color: red; padding-left: 500; font-size: 30;"  action="">
-        <label for="fname">Full Name:     </label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="contact">Contact Details:</label>
-        <input type="text" id="contact" name="contact"><br><br>
-        <input type="submit" value="Submit">
-      </form>
-      
-</body>
+    <title>Support</title>
+    <body bgcolor="#262626">
+        <head>
+            <link rel="stylesheet" href="style.css">
+          </head>
+        
+          <div class="container" style="width: 1310px;  height: 600px;">
+            <a href="index.html"><dialog open class="button" style="transform: translateX(650px); ">X</dialog></a>
+            <form action="action_page.php" style="transform: translateY(35px);">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </body>
+
 </html>
