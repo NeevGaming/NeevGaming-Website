@@ -13,12 +13,19 @@
     }
  }
  .animation1 {
+     font-size: 50px; 
+    transform: translateY(-50px);
     animation-name: fadeAndScale;
     animation-duration: 0.3s;
+    color:FFFFFF; 
+    text-align: center;
+    align-items: center;
   }
   .animation2 {
     animation-name: fadeAndScale;
     animation-duration: 0.1s;
+    text-align: center;
+    align-items: center;  
   }
   @keyframes New 
   {
@@ -70,6 +77,21 @@
   .test {
     animation-name: New;
     animation-duration: 0.3s;
+    background-color:#262626;
+    border:1px dotted black; 
+    width: 300px; 
+    height: 570px;
+    transform: translateX(-510px);
+  }
+  .test2
+  {
+    animation-name: New;
+    animation-duration: 0.3s;
+    background-color:#262626;
+    border:1px dotted black; 
+    width: 300px; 
+    height: 570px;
+    transform: translateX(-510px);
   }
   .menu_img 
   {
@@ -92,7 +114,12 @@
   .button
   {
     background-color: white;
-
+    
+  }
+  .button2
+  {
+    background-color: white;
+    transform: translateX(650px);
   }
   .close
   {
@@ -103,9 +130,10 @@
   {
     animation-name: fadeAndScale;
     animation-duration: 0.2s;
-    font-size: 100px;
+    font-size: 80px;
     color : #D3D3D3;
-    padding-left: 440px;
+    text-align: center;
+    align-items: center;
   }
   .aboutmepara
   {
@@ -113,29 +141,11 @@
     animation-duration: 0.4s;
     color: white; 
     font-size: 30px;
+    text-align: center;
+    align-items: center;
   }
   
-  /* Rotate first bar */
-  /*.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  */
   
-  /* Fade out the second bar */
-  /*.change .bar2 {
-    opacity: 0;
-  }
-  */
-  
-  /* Rotate last bar */
-  /*.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
-   */
-
-   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -168,3 +178,96 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+nav
+{
+  flex: 1;
+  text-align: right;
+}
+ 
+.list1
+{
+ list-style: none;
+ display: inline-block;
+ margin-right: 30px;
+}
+.a {
+ text-decoration: none;
+ color: #FFFF;
+ font-size: 14px;
+
+}
+a:hover
+{
+  color: red;
+}
+.video1
+{
+  transform: translateX(120px);
+  width:"320px" ;  
+  height:"180px" ; 
+}
+.video2
+{
+  transform: translateX(140px);
+  width:"320px" ;  
+  height:"180px" ; 
+}
+.video3
+{
+  transform: translateX(160px);
+  width:"320px" ;  
+  height:"180px" ; 
+}
+
+
+@media only screen and (max-width: 700px){
+  .test
+  {
+    animation-name: New;
+    animation-duration: 0.3s;
+    background-color:#262626;
+    border:1px dotted black; 
+    width: 300px; 
+    height: 570px;
+    transform: translateX(-20px);
+  }
+  .aboutme
+  {
+    font-size: 50px;
+  }
+  .aboutmepara
+  {
+    font-size: 20px;
+  }
+  .button2
+  {
+    background-color: white;
+    transform: translateX(10px);
+  }
+  .video1
+  {
+    transform: translate(30px);
+    width:"320px" ;  
+    height:"180px" ; 
+    margin-top: 20px;
+  }
+  .video2
+  {
+    transform: translate(30px);
+    width:"320px" ;  
+    height:"180px" ; 
+    margin-top: 20px;
+  }
+  .video3
+  {
+    transform: translate(30px);
+    width:"320px" ;  
+    height:"180px" ; 
+    margin-top: 20px;
+  }
+  
+}
+
+
+
+
