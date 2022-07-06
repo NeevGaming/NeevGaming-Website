@@ -219,6 +219,55 @@ a:hover
   width:"320px" ;  
   height:"180px" ; 
 }
+.footer
+{
+  background-color: #f2f2f2;
+  transform: translateY(30px);
+  height: 20px;
+  align-items: center;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 10px;
+}
+.terms
+{
+  text-align: center;
+  transform: translateX(950px);
+}
+.section1
+{
+  background-color: #31353B;
+  height: 400px;
+  display: flex;
+}
+.section1-t
+{
+  color: white;
+  margin-left: 10px ;
+  font-size: 30px;
+  margin-top: 70px ;
+}
+.section2-t
+{
+  color: white;
+  margin-left: 10px ;
+  font-size: 25px;
+  margin-top: 70px ;
+  text-align: left;
+}
+.section3-t
+{
+  color: white;
+  margin-left: 10px ;
+  font-size: 25px;
+  margin-top: 70px ;
+  text-align: left;
+}
+.img
+{
+  
+}
+
 
 
 @media only screen and (max-width: 700px){
