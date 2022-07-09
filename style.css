@@ -265,8 +265,10 @@ a:hover
 }
 .img
 {
-  
+  width:"600px";
+  height:"400px"; 
 }
+
 
 
 
@@ -326,9 +328,48 @@ a:hover
   .container1 {
     display: inline-block;
     cursor: pointer;
+    display: non;
   }
-  
+  .section1
+{
+  background-color: #31353B;
+  height: 200px;
+  width: 512;
+  display: flex;
+  display: none;
 
+}
+.section1-t
+{
+  color: white;
+  font-size: 10px;
+}
+.section2-t
+{
+  color: white;
+  margin-left: 10px ;
+  font-size: 25px;
+  margin-top: 70px ;
+  text-align: left;
+}
+.section3-t
+{
+  color: white;
+  margin-left: 10px ;
+  font-size: 25px;
+  margin-top: 70px ;
+  text-align: left;
+}
+.img
+{
+  width:"400px";
+  height:"400px"; 
+}
+.footer{
+  display: none;
+}
+
+ 
 }
 
 
